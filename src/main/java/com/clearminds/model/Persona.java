@@ -3,6 +3,13 @@ package com.clearminds.model;
 public class Persona {
 	private String nombre, apellido, cedula;
 
+	public Persona(String nombre, String apellido, String cedula) {
+		super();
+		this.nombre = nombre;
+		this.apellido = apellido;
+		this.cedula = cedula;
+	}
+
 	public String getNombre() {
 		return nombre;
 	}
@@ -31,6 +38,5 @@ public class Persona {
 	public String toString() {
 		return "Persona [nombre=" + nombre + ", apellido=" + apellido + ", cedula=" + cedula + "]";
 	}
-	
-	
+
 }
